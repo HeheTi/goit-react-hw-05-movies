@@ -1,0 +1,25 @@
+.sectionSerch {
+  padding: 20px;
+}
+
+input[name='query'] {
+  width: 300px;
+  padding: 5px 10px;
+}
+
+.submitForm {
+  padding: 5px 15px;
+}
+
+.list {
+  padding: 20px 30px;
+  margin: 0;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 30px;
+}

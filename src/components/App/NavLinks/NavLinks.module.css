@@ -1,0 +1,30 @@
+.activeLink {
+  color: red;
+  font-weight: 600;
+}
+
+.navigationLinks {
+  padding: 20px;
+}
+
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+
+.navLink:hover,
+.navLink:focus {
+  text-decoration: underline;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 30px;
+}
