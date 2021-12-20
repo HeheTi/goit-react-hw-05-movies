@@ -38,7 +38,7 @@ const getMovieReviewsById = async id => {
 };
 
 const getSerchMovies = async serchName => {
-  const url = `${BASE_URL}search/movie/?api_key=${API_KEY}&query=${serchName}`;
+  const url = `${BASE_URL}search/movie?api_key=${API_KEY}&query=${serchName}`;
   const res = await fetch(url);
   if (res.ok) {
     return res.json();
